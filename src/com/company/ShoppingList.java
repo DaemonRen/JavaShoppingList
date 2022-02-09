@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ShoppingList {
 
     public static void main(String[] args) {
-        ArrayList<String> shoppingList = new ArrayList<String>();
+        ArrayList<String> shoppingList = new ArrayList<>();
         Scanner shopping = new Scanner(System.in);
         String item = "";
         String addMore = "";
